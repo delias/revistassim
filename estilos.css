@@ -2,10 +2,20 @@ body
 {
 	background: #333;
 }
+h1
+{
+	text-align: center;
+	color: white;
+}h2
+{
+	text-align: center;
+	color: white;
+}
 h3
 {
 	height: 30px;
 }
+
 .views-field-field-cover-image .field-content img
 {
 	height: 149px;
@@ -33,5 +43,14 @@ h3
 	font-size: 16px;
 	
 	color: white;
+
+}
+#header
+{
+	text-align: center;
+}
+#header img
+{
+	transform: rotate(-10deg);
 
 }
