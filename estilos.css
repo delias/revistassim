@@ -10,6 +10,7 @@ h1
 {
 	text-align: center;
 	color: white;
+	padding-top: 15px;
 }
 h3
 {
@@ -45,12 +46,26 @@ h3
 	color: white;
 
 }
-#header
+#banner
 {
 	text-align: center;
 }
-#header img
+#banner #flecha
+{
+	left: -10px;
+	padding-bottom: 130px;
+	position: relative;
+	z-index: 3;
+}
+#banner #nueva
+{
+	position: relative;
+	padding-bottom: 200px;
+	right: -10px;
+	z-index: 2;
+}
+#banner #portada
 {
 	transform: rotate(-10deg);
-
+	z-index: 1;
 }
