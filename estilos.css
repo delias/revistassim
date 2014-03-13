@@ -1,18 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 body
 {
-	background: #333;
+	background: #FFF379;
 	font-family: "Open Sans";
 	font-size: 16px;
 }
 h1
 {
 	text-align: center;
-	color: white;
 }h2
 {
 	text-align: center;
-	color: white;
 	padding-top: 15px;
 }
 h3
@@ -32,26 +30,25 @@ h3
 
 }
 .edicion
-{
-	
+{	
 	float: left;
 	width: 200px;
 	height: 230px;
 	text-align: center;
-	color: gray;
-	
+	color: gray;	
 }
 .edicion h3 a
 {
 	text-decoration: none;
 	font-size: 16px;
-	
-	color: white;
-
+	color: black;
 }
 #banner
 {
 	text-align: center;
+	overflow: hidden;
+	width: 512px;
+	margin: auto;
 }
 #banner h2
 {
@@ -61,16 +58,14 @@ h3
 }
 #banner #flecha 
 {
-
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 	position: relative;
 	z-index: 3;
-
 }
 #banner #nueva
 {
 	position: relative;
-	padding-bottom: 200px;
+	padding-bottom: 170px;
 	right: -10px;
 	z-index: 2;
 }
@@ -78,4 +73,5 @@ h3
 {
 	transform: rotate(-10deg);
 	z-index: 1;
+	margin: 15px 0px -31px 0px;
 }
