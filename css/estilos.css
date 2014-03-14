@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body
+{
+	background: #FFF379;
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+h1
+{
+	text-align: center;
+}h2
+{
+	text-align: center;
+	padding-top: 15px;
+}
+h3
+{
+	height: 30px;
+}
+
+.views-field-field-cover-image .field-content img
+{
+	height: 149px;
+	width: 116px;
+}
+.revistas
+{
+	margin: 0px auto;
+	width: 800px;
+
+}
+.edicion
+{	
+	float: left;
+	width: 200px;
+	height: 230px;
+	text-align: center;
+	color: gray;	
+}
+.edicion h3 a
+{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+#banner
+{
+	text-align: center;
+	overflow: hidden;
+}
+#banner h2
+{
+	width: 200px;
+	position: absolute;
+	display: inline-block;
+}
+#flecha 
+{
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 3;
+}
+#nueva
+{
+	position: relative;
+	padding-bottom: 170px;
+	right: -10px;
+	z-index: 2;
+}
+#portada
+{
+	transform: rotate(-10deg);
+	z-index: 1;
+	margin: 15px 0px -31px 0px;
+}
+
+#subtitulo
+{
+	margin: -18px auto;	
+	box-shadow: 0px -22px 24px -20px rgb(0, 0, 0);
+	width: 40em;
+}
+.portadahover
+{
+	transform: rotate(10deg);
+	border: 2px
+	
+}
