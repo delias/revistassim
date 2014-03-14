@@ -55,9 +55,10 @@ h3
 	display: inline-block;
 }
 .flecha 
-{
-	padding-bottom: 50px;
+{	
 	position: relative;
+	padding-bottom: 50px;
+	left: 0px;
 	z-index: 2;
 	transition-duration: .5s;
 }
@@ -86,7 +87,7 @@ h3
 .flechahover
 {
 	padding-bottom: 78px;
-	left: 0px;
+	left: -20px;
 }
 .portadahover
 {
