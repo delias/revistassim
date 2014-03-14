@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
-    $("#portada").hover(function () {
-    	alert('hola');
+    $(".portada").hover(function () {
+
+        $(this).toggleClass('portadahover');
+        $('.nueva').toggleClass('nuevahover');
+        $('.flecha').toggleClass('flechahover');
 
     })
 })
