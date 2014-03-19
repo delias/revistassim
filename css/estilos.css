@@ -99,3 +99,11 @@ h3
 	padding-bottom: 220px;
 	right: -30px;
 }
+.views-field
+{
+	transition-duration: .5s;
+}
+.views-field:hover
+{
+	transform: scale(1.05);
+}
