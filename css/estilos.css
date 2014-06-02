@@ -25,9 +25,8 @@ h3
 }
 .revistas
 {
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 800px;
-
 }
 .edicion
 {	
@@ -106,4 +105,10 @@ h3
 .views-field:hover
 {
 	transform: scale(1.05);
+}
+
+/*index*/
+#index
+{
+	background-color: #0CAFD7;
 }
